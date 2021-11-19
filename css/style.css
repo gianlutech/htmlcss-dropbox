@@ -1,3 +1,4 @@
+/* GENERICS */
 *{
     margin: 0;
     padding: 0;
@@ -11,4 +12,66 @@
 .container{
     max-width: 1200px;
     margin: 0 auto;
+}
+.header-container{
+    position: relative;
+}
+/* UTILS */
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+header{
+    height: 70px;
+    line-height: 70px;
+    position: fixed;
+
+}
+#logo{
+    vertical-align: middle;
+    margin: 0 20px;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+/* COLONNE */ 
+.w-50-header{
+    width: 50%;
+    float: left;
+}
+/* LISTS */
+.top-list{
+    display: inline-block;
+}
+/* .top-list ul{
+    text-align: center;
+
+} */
+.top-list li{
+    display: inline-block; 
+    margin: 0 20px;
+}
+.top-list a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+/* BUTTOMS */
+.btn{
+color: white;
+text-decoration: none;
+}
+.btn.btn-small{
+background-color: #0061FF;
+padding: 10px 25px;
+margin: 0 20px;
+}
+.btn.btn-large{
+
 }
