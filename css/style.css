@@ -16,16 +16,27 @@
 .header-container{
     position: relative;
 }
+.jumbatron-container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
 /* UTILS */
 body{
     font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
+    
 }
 header{
     height: 70px;
     line-height: 70px;
     position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
 
+}
+main{
+    margin-top: 70px;
 }
 #logo{
     vertical-align: middle;
@@ -48,11 +59,8 @@ header{
 /* LISTS */
 .top-list{
     display: inline-block;
+    vertical-align: middle;
 }
-/* .top-list ul{
-    text-align: center;
-
-} */
 .top-list li{
     display: inline-block; 
     margin: 0 20px;
@@ -74,4 +82,14 @@ margin: 0 20px;
 }
 .btn.btn-large{
 
+}
+/* JUMBO */
+.jumbo{
+    height: 800px;
+    background-color: #B4D0E7;
+    padding: 75px;
+}
+
+#title{
+    font-size: 75px;
 }
