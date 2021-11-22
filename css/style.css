@@ -10,14 +10,14 @@
     clear: both;
 }
 .container{
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 .header-container{
     position: relative;
 }
 .jumbatron-container{
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 /* UTILS */
@@ -51,9 +51,20 @@ main{
 .text-left{
     text-align: left;
 }
+.m-25px{
+    margin: 25px 0;
+}
 /* COLONNE */ 
 .w-50-header{
     width: 50%;
+    float: left;
+}
+.w-30{
+    width: 30%;
+    float: left;
+}
+.w-70{
+    width: 70%;
     float: left;
 }
 /* LISTS */
@@ -74,22 +85,126 @@ main{
 .btn{
 color: white;
 text-decoration: none;
+background-color: #0061FF;
+}
+.btn:hover{
+    background-color: dodgerblue;
 }
 .btn.btn-small{
-background-color: #0061FF;
 padding: 10px 25px;
 margin: 0 20px;
 }
 .btn.btn-large{
-
+padding: 10px 15px;
 }
 /* JUMBO */
 .jumbo{
-    height: 800px;
+    height: 755px;
     background-color: #B4D0E7;
-    padding: 75px;
+    padding: 100px;
 }
-
+.par-jumbo{
+    margin: 35px 0;
+}
 #title{
     font-size: 75px;
 }
+.fa-arrow-down{
+    font-size: 50px;
+}
+.jumbo-img{
+    height: 500px;
+    width: 820px;
+    margin: 40px;
+}
+/* section business */
+.business{
+    margin-bottom: 40px; 
+}
+.check{
+    display: inline-block
+}
+.check-blue{
+    border: solid 4px dodgerblue;
+    border-radius: 50%;
+    padding: 3px;
+}
+.check-light{
+    border: solid 1px #DBDBDE;
+    border-radius: 50%;
+    padding: 6px;
+    margin-left: 30px;
+}
+.check-section{
+    margin-bottom: 30px;
+}
+/* colonne */
+.col.w-30{
+    border: 2px solid #D5D5D7;
+    height: 1000px;
+}
+.w-30-center{
+    margin: 0 50px;
+}
+.top-block{
+    border-bottom: 2px solid #DBDBDE;
+    padding: 10px 20px;
+}
+.title-col{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.col-body{
+    padding: 20px;
+}
+.price{
+    margin-bottom: 10px;
+}
+.month{
+    color: #7E8B97;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.user{
+   margin-bottom: 20px; 
+}
+.pencil{
+    margin-bottom: 50px;
+}
+.blue{
+    color: #2E7EFF;
+    text-decoration: underline;
+}
+.shop-now{
+    margin: 30px 0;
+}
+hr{
+    width: 65px;
+    color: #DBDBDE;
+    
+}
+.plane{
+    margin: 30px 0;
+}
+.fa-check{
+    color: #0061FF;
+}
+.col-list{
+    margin: 20px 0;
+}
+.enterprise{
+    border: 2px solid #D5D5D7;
+    margin: 50px 0;
+    position: relative;
+    
+}
+.display{
+    display: inline-block;
+}
+.position-btn{
+    position: absolute;
+    top: 70px;
+    right: 20px;
+}
+
