@@ -58,6 +58,9 @@ main{
 .m-100px{
     margin: 100px 0;
 }
+.m-50px{
+    margin: 50px 0;
+}
 /* COLONNE */ 
 .w-50-header{
     width: 50%;
@@ -70,6 +73,11 @@ main{
 .w-70{
     width: 70%;
     float: left;
+}
+.w25{
+    width: 25%;
+    float: left;
+    
 }
 /* LISTS */
 .top-list{
@@ -230,4 +238,82 @@ hr{
 .col-height{
     height: 600px;
 }
+.link-client{
+    color: #5394FF;
+}
+.partner-collabo{
+    height: 400px;
+    width: 100%;
+    background-color: #F5F5F5;
+    margin-top: 50px; 
+    position: relative;
+}
+.block{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    position: absolute;
+    
+}
+.block.tortora{
+    top: 0;
+    left: 200px;
+    background-color: #61082B;
+}
+.block.green{
+    top: 0;
+    left: 0;
+    background-color:#A2D39B;
+    
+}
 
+.block.blue{
+    bottom: 0;
+    left: 0;
+    background-color: #0093CE;
+}
+.block.red{
+    bottom: 0;
+    left: 200px;
+    background-color: #FF1C1C;
+}
+.block.dark-red{
+    top: 0;
+    right: 200px;
+    background-color: #D5001F;
+}
+.block.sky{
+    top: 0;
+    right: 0;
+    background-color: #B4D0E7;
+}
+.block.dark-blue{
+    bottom: 0;
+    right: 200px;
+    background-color: #0D2481;
+}
+.block.yellow{
+    bottom: 0;
+    right: 0;
+    background-color: #FFD830;
+}
+
+.logo-partner{
+    color: white;
+    width: 100px;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    transform: translate(50%, -50%);
+}
+.central-section{
+     width: 100px;
+    
+}
+.w-50-central{
+    position: absolute;
+    top: 30px;
+    left: 415px;
+    width: 500px;
+
+}
