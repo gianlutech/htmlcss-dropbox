@@ -295,7 +295,6 @@ padding: 10px 15px;
     transition: 1s linear;
     border: 10px solid darkred;
     cursor: pointer;
-    scale: 0.3;
 }
 .block.green{
     top: 0;
@@ -306,7 +305,6 @@ padding: 10px 15px;
     transition: 1s linear;
     border: 10px solid lightgreen;
     cursor: pointer;
-    scale: 0.3;
 }
 
 .block.blue{
@@ -318,7 +316,6 @@ padding: 10px 15px;
     transition: 1s linear;
     border: 10px solid lightskyblue;
     cursor: pointer;
-    scale: 0.3;
 }
 .block.red{
     bottom: 0;
@@ -329,7 +326,6 @@ padding: 10px 15px;
     transition: 1s linear;
     border: 10px solid #df5555;
     cursor: pointer;
-    scale: 0.3;
 }
 .block.dark-red{
     top: 0;
@@ -340,7 +336,6 @@ padding: 10px 15px;
     transition: 1s linear;
     border: 10px solid red;
     cursor: pointer;
-    scale: 0.3;
 }
 .block.sky{
     top: 0;
@@ -351,7 +346,6 @@ padding: 10px 15px;
     transition: 1s linear;
     border: 10px solid lightskyblue;
     cursor: pointer;
-    scale: 0.3;
 }
 .block.dark-blue{
     bottom: 0;
@@ -362,7 +356,6 @@ padding: 10px 15px;
     transition: 1s linear;
     border: 10px solid blue;
     cursor: pointer;
-    scale: 0.3;
 }
 .block.yellow{
     bottom: 0;
@@ -373,7 +366,6 @@ padding: 10px 15px;
     transition: 1s linear;
     border: 10px solid lightyellow;
     cursor: pointer;
-    scale: 0.3;
 }
 
 .logo-partner{
