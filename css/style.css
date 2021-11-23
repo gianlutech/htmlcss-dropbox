@@ -39,6 +39,10 @@ header{
 main{
     margin-top: 70px;
 }
+footer{
+    background-color: black;
+    color: white;
+}
 #logo{
     vertical-align: middle;
     margin: 0 20px;
@@ -62,6 +66,12 @@ main{
     margin: 50px 0;
 }
 /* COLONNE */ 
+.col{
+    float: left;
+}
+.w-20{
+    width: 20%;
+}
 .w-50-header{
     width: 50%;
     float: left;
@@ -93,6 +103,16 @@ main{
     text-decoration: none;
     color: black;
 }
+.footer-list a{
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+}
+.footer-list li{
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+}
 /* BUTTOMS */
 .btn{
 color: white;
@@ -115,6 +135,16 @@ padding: 10px 15px;
     text-decoration: none;
     color: black;
     padding: 10px 15px;
+}
+.btn-white{
+    background-color: white;;
+    text-decoration: none;
+    color: black;
+    padding: 10px 65px;
+    position: absolute;
+    top: 120px;
+    right: 0;
+
 }
 /* JUMBO */
 .jumbo{
@@ -198,7 +228,7 @@ padding: 10px 15px;
 .shop-now{
     margin: 30px 0;
 }
-hr{
+.hr-small{
     width: 65px;
     color: #DBDBDE;
     
@@ -307,7 +337,7 @@ hr{
     transform: translate(50%, -50%);
 }
 .central-section{
-     width: 100px;
+     width: 150px;
     
 }
 .w-50-central{
@@ -316,4 +346,42 @@ hr{
     left: 415px;
     width: 500px;
 
+}
+.bg-sky{
+    height: 300px;
+    width: 100%;
+    background-color: #B4D0E7;
+    
+}
+.bg-sky-title{
+    position: absolute;
+    top: 120px;
+    font-size: 40px;
+    color: #61082B;
+}
+.title-btn{
+    position: relative;
+
+}
+/* FAQ */
+.faq{
+    margin: 70px 0;
+    
+}
+.faq h1{
+    font-size: 36px;
+}
+.difference{
+    display: inline-block;
+    font-weight: bold;
+    margin: 40px 0;
+}
+.fa-angle-down{
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    font-size: 20px;
+}
+.position{
+    position: relative;
 }
