@@ -107,11 +107,14 @@ footer{
     list-style-type: none;
     color: white;
     text-decoration: none;
+    font-size: 14px;
 }
 .footer-list li{
     list-style-type: none;
-    color: white;
-    text-decoration: none;
+    margin: 5px 0;
+}
+.footer-list{
+    margin-bottom: 80px;
 }
 /* BUTTOMS */
 .btn{
@@ -384,4 +387,15 @@ padding: 10px 15px;
 }
 .position{
     position: relative;
+}
+.title-list-footer{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.leng{
+    color: gray;
+    font-size: 12px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    
 }
